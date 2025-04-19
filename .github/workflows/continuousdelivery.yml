@@ -53,5 +53,5 @@ jobs:
 
         with:
           context: .
-          push: true
+          push: false
           tags: user/app:latest
