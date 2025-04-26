@@ -1,8 +1,9 @@
+import pytest
+
 from src.main import *
 from unittest.mock import patch
 
 
-@pytest.mark.asyncio
 def test_root():
     assert root() == {"message": "olá"}
 
